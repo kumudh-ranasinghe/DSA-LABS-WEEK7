@@ -24,11 +24,11 @@ struct node *insertNode(struct node *root, int key) {
     return newNode;
   }
   //nodes with existing values are not inserted because it is redundant
-  if (key < root->key)
+  if (key < root->key){
     root->left = insertNode(root->left, key);
-  else if (key > root->key)
+  }else if (key > root->key){
     root->right = insertNode(root->right, key);
-
+  }
   return root;
 }
 
@@ -44,14 +44,14 @@ struct node *minNode(struct node *node) {
 
 // Deleting a node
 struct node *deleteNode(struct node *root, int key) {
-  if (root == NULL)
+  if (root == NULL){
     return root;
-
-  if (key < root->key)
+  }
+  if (key < root->key){
     root->left = deleteNode(root->left, key);
-  else if (key > root->key)
+  }else if (key > root->key){
     root->right = deleteNode(root->right, key);
-  else {
+  }else {
     if (root->left == NULL) {
       struct node *temp = root->right;
       delete root;
