@@ -1,4 +1,4 @@
 # IN CLASS LAB EXERCISE (WEEK 7)
 
 
-[Implementation of Binary Search Tree](https://github.com/kumudh-ranasinghe/DSA-LABS-WEEK6/blob/fdd48ed5cd5320e0337af6dcebfc6163f1453ad0/StackArray.cpp)
+[Implementation of Binary Search Tree](https://github.com/kumudh-ranasinghe/DSA-LABS-WEEK7/blob/9f3979e23b151beb47e2e5a87e4e49b4278aa505/BST.cpp)
